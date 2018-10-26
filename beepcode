@@ -1,0 +1,30 @@
+#include <iostream>
+#include <windows.h>
+using namespace std;
+int main()
+{
+
+	cout << "The name of this song is Summer Lovin" << endl;
+
+	Beep(261, 970);  // C
+	Beep(261, 400);  // C
+	Beep(349, 970);  // F
+	Beep(349, 360);  // F
+	Beep(392, 970);  // G
+	Beep(392, 400);  // G
+	Beep(349, 390);  // F
+	Beep(392, 700);  // G
+	Beep(349, 390);  // F
+	Beep(261, 970);  // C
+	Beep(261, 400);  // C
+	Beep(349, 970);  // F
+	Beep(349, 360);  // F
+	Beep(392, 970);  // G
+	Beep(392, 400);  // G
+	Beep(349, 390);  // F
+	Beep(392, 700);  // G
+	Beep(349, 390);  // F
+	Beep(261, 970);  // C
+
+	return 0;
+}
